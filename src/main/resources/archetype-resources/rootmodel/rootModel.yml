@@ -1,0 +1,33 @@
+group_id: com.mycompany
+artifact_id: my-app
+version: 1.0-SNAPSHOT
+build_lang: kotlindsl
+prog_lang: kotlin
+archetypes_list:
+  - quickstart
+  - webapp
+  - archetype
+#quickstart:
+#  group_id: ${group_id}
+#  artifact_id: ${artifact_id}-quickstart
+#  version: ${version}
+#  build_lang: ${build_lang}
+#  prog_lang: ${prog_lang}
+#  build_directory: "kotlindsl/build.gradle.kts"
+#  src_directory: "kotlin/Main.kt"
+#webapp:
+#  group_id: ${group_id}
+#  artifact_id: ${artifact_id}-webapp
+#  version: ${version}
+#  build_lang: ${build_lang}
+#  prog_lang: ${prog_lang}
+#  build_directory: "kotlindsl/build.gradle.kts"
+#  src_directory: "java/Main.java"
+#archetype:
+#  group_id: ${group_id}
+#  artifact_id: ${artifact_id}-archetype
+#  version: ${version}
+#  build_lang: ${build_lang}
+#  prog_lang: ${prog_lang}
+#  build_directory: "kotlindsl/build.gradle.kts"
+#  src_directory: "kotlin/Main.kt"
